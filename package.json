@@ -1,0 +1,35 @@
+{
+  "name": "melonly",
+  "productName": "Melonly",
+  "version": "0.1.10",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [],
+  "author": "Melonly",
+  "description": "A desktop application for Melonly",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "^24.1.2",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@electron-forge/publisher-github": "^6.1.1",
+    "dotenv": "^16.0.3",
+    "electron-log": "^4.4.8",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.1.0",
+    "global-mouse-events": "^1.1.0",
+    "node-global-key-listener": "^0.1.1",
+    "node-window-manager": "^2.2.4"
+  }
+}
